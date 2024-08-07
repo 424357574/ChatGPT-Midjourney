@@ -272,6 +272,7 @@ const tw = {
     },
 
     Access: {
+      GotoGetKey: "点击获取",
       AccessCode: {
         Title: "存取密碼",
         SubTitle: "管理員已開啟加密存取",
@@ -289,6 +290,7 @@ const tw = {
         ApiKey: {
           Title: "API Key",
           SubTitle: "使用自訂 OpenAI Key 繞過密碼存取限制",
+          GetKeyUrl: "https://github.com/chatanywhere/GPT_API_free",
           Placeholder: "OpenAI API Key",
         },
 
@@ -301,6 +303,7 @@ const tw = {
         ApiKey: {
           Title: "API 金鑰",
           SubTitle: "使用自訂 Azure Key 繞過密碼存取限制",
+          GetKeyUrl: "https://github.com/chatanywhere/GPT_API_free",
           Placeholder: "Azure API Key",
         },
 

@@ -275,6 +275,7 @@ const cn = {
     },
 
     Access: {
+      GotoGetKey: "点击获取",
       AccessCode: {
         Title: "访问密码",
         SubTitle: "管理员已开启加密访问",
@@ -292,6 +293,7 @@ const cn = {
         ApiKey: {
           Title: "API Key",
           SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
+          GetKeyUrl: "https://github.com/chatanywhere/GPT_API_free",
           Placeholder: "OpenAI API Key",
         },
 
@@ -304,6 +306,7 @@ const cn = {
         ApiKey: {
           Title: "接口密钥",
           SubTitle: "使用自定义 Azure Key 绕过密码访问限制",
+          GetKeyUrl: "https://github.com/chatanywhere/GPT_API_free",
           Placeholder: "Azure API Key",
         },
 

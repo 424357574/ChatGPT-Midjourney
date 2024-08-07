@@ -718,6 +718,13 @@ export function Settings() {
         title={Locale.Settings.Access.OpenAI.ApiKey.Title}
         subTitle={Locale.Settings.Access.OpenAI.ApiKey.SubTitle}
       >
+        <Link
+          href={Locale.Settings.Access.OpenAI.ApiKey.GetKeyUrl}
+          target="_blank"
+          className="link"
+        >
+          {Locale.Settings.Access.GotoGetKey}
+        </Link>
         <PasswordInput
           value={accessStore.openaiApiKey}
           type="text"
@@ -1176,8 +1183,8 @@ export function Settings() {
               checkingUpdate
                 ? Locale.Settings.Update.IsChecking
                 : hasNewVersion
-                ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
-                : Locale.Settings.Update.IsLatest
+                  ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
+                  : Locale.Settings.Update.IsLatest
             }
           >
             {checkingUpdate ? (

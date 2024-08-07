@@ -278,6 +278,7 @@ const en: LocaleType = {
       NoAccess: "Enter API Key to check balance",
     },
     Access: {
+      GotoGetKey: "Goto get key",
       AccessCode: {
         Title: "Access Code",
         SubTitle: "Access control Enabled",
@@ -295,6 +296,7 @@ const en: LocaleType = {
         ApiKey: {
           Title: "OpenAI API Key",
           SubTitle: "User custom OpenAI Api Key",
+          GetKeyUrl: "https://github.com/chatanywhere/GPT_API_free",
           Placeholder: "sk-xxx",
         },
 
@@ -307,6 +309,7 @@ const en: LocaleType = {
         ApiKey: {
           Title: "Azure Api Key",
           SubTitle: "Check your api key from Azure console",
+          GetKeyUrl: "https://github.com/chatanywhere/GPT_API_free",
           Placeholder: "Azure Api Key",
         },
 
